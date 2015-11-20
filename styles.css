@@ -1,0 +1,277 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after  {
+	box-sizing: inherit;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+}
+
+#wrapper {
+	padding: 0px;
+}
+
+header {
+	overflow: auto;
+	padding: 20px;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+h1 {
+	font-family: lobster;
+	width: 180px;
+	height: 180px;
+	background-color: #FFD34E;
+	color: #FFFAD5;
+	padding: 75px 0px 0px 0px;
+	font-size: 1.5em;
+	float: left;
+	text-align: center;
+	border-radius: 90px;
+	margin:0px 0px 0px -200px;
+}
+
+h2 {
+	border-bottom: 1px black solid;
+	margin: 0px 0px 10px 0px;
+}
+
+#contact {
+	float: right;
+	margin: 85px 0px 0px 0px;
+	font-size: 0.8em;
+}
+
+#contact li {
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 15px;
+}
+
+.email {
+	background-image: url("images/email-icon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.phone {
+	background-image: url("images/phone-icon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#contact a:link, #contact a:visited {
+	color: black;
+}
+
+#contact a:hover {
+	color: #666;
+}
+
+nav {
+	color: #F2DFBC;
+	background-color: #100900;
+	padding: 10px 5px;
+	margin: 220px 20px 10px 20px;
+	border-radius: 6px;
+}
+
+nav li, footer li, #contact li {
+	display: inline-block;
+}
+
+h1 a:link, h1 a:visited {
+	color: #FFFAD5;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+nav a:hover, #about nav #aboutlink, #home nav #homelink, #products nav #productslink, #order nav #orderlink {
+	background-color: #FF9F8F;
+	border-radius: 3px;
+}
+
+#content {
+	margin: 0px 20px 0px 20px;
+	overflow: auto;
+
+}
+
+#content img {
+	max-width: 100%;
+    height: auto;
+}
+
+#aboutus-text {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    -webkit-column-width: 400px; /* Chrome, Safari, Opera */
+    column-width: 400px;
+}
+
+footer {
+	padding: 10px 0px;
+	margin: 15px 20px 0px 20px;
+	font-size: 0.7em;
+	border-top: 1px black solid;
+}
+
+footer li {
+	margin: 0px 2px 5px 0px;
+}
+
+footer img:hover {
+	opacity: 0.6;
+}
+
+fieldset {
+	width: 49%;
+	float: left;
+	margin: 0% 1% 15px 0%;
+	border-style: none;
+}
+
+legend {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+	display: block;
+	margin-bottom: 10px;
+	width: 35em;
+}
+
+input[type="radio"] {
+	margin: 0px 5px 0px 8px;
+}
+
+.error {
+	border-color: red;
+	color: red;
+}
+
+#submit {
+	width: 100%;
+	font-weight: bolder;
+	padding:5px;
+	background-color: green;
+	color: white;
+}
+
+input {
+	padding: 5px;
+	border-radius: 4px;
+}
+
+aside {
+	background-color: #FF9F8F;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.homeAside {
+	background-color: #FF9F8F;
+}
+
+.aboutAside {
+	background-color: #00ace6;
+}
+
+.productsAside {
+	background-color: #FFD34E;
+}
+
+.orderAside {
+	background-color: #00b300;
+}
+
+
+
+.logoClassYellow {
+	background-color: #FFD34E;
+}
+.logoClassPink {
+	background-color: pink;
+}
+.logoClassOrange {
+	background-color: orange;
+}
+
+
+
+
+#sliderBase {
+	border-radius: 14px;
+	width: 50px;
+	height: 24px;
+	padding: 2px;
+	margin: 0px 0px 10px 0px;
+}
+
+
+#zebraControl {
+	margin: 0px 0px 20px 0px;
+}
+
+.zebraStriping {
+	background-color: #D3D3D3;
+}
+
+.sliderBaseOff {
+	background-color: #666;
+}
+
+#slider {
+	border-radius: 12px;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+}
+
+.sliderBaseOn {
+	background-color: #99CC33;
+	background-image: url("images/check-icon.png"); 
+	background-repeat: no-repeat;
+	background-position: 7px;
+}
+
+
+.prices {
+	margin: 0px 0px 0px 10px;
+	display: none;
+}
+
+
+.canvasBackgroundBlack {
+	background-color: #000000;
+}
+
+.canvasBackgroundBlue {
+	background-color: #0088cc;
+}
+
+
+
+
