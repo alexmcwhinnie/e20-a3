@@ -1,13 +1,12 @@
 $(document).ready(function(){
 
+	//PART 1 BASIC JQUERY ///////////////////////////////////////////////////////////
+
 	//6 Extra effects
-	//1
 	$('h1').animate({
 		marginLeft: "0"
 	}, 300);
 
-
-	//2
 	$('h1').dblclick(function() {
 		$('h1').animate({
 			marginLeft: "-200"
@@ -18,7 +17,7 @@ $(document).ready(function(){
 	});
 
 
-	//Hover Effect (3)
+	//Hover Effect
 	$('#homelink').hover(function(event){
 		$('aside').slideDown();
 		$('aside').attr({
@@ -58,7 +57,7 @@ $(document).ready(function(){
 
 
 
-	//click effect logo (2)
+	//click effect logo
 	$('#sliderBase').toggle(
 	    function(){
 

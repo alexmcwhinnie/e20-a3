@@ -207,8 +207,6 @@ aside {
 	background-color: #00b300;
 }
 
-
-
 .logoClassYellow {
 	background-color: #FFD34E;
 }
@@ -219,9 +217,6 @@ aside {
 	background-color: orange;
 }
 
-
-
-
 #sliderBase {
 	border-radius: 14px;
 	width: 50px;
@@ -229,7 +224,6 @@ aside {
 	padding: 2px;
 	margin: 0px 0px 10px 0px;
 }
-
 
 #zebraControl {
 	margin: 0px 0px 20px 0px;
@@ -257,12 +251,10 @@ aside {
 	background-position: 7px;
 }
 
-
 .prices {
 	margin: 0px 0px 0px 10px;
 	display: none;
 }
-
 
 .canvasBackgroundBlack {
 	background-color: #000000;
